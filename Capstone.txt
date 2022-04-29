@@ -1,1 +1,8 @@
 - Been talking with client about MVP, page layout, and stretch goals since 8 AM.
+MVP: 
+  1) pictures and descriptions of each property.
+  2) import vrbo calendar
+  3) customer portal - post booking guest information
+    - post booking information - cancellation, refunds, overnight occupancy policy
+    - check in information / house rules - lockbox code, internet, cell service/landline info
+      - Utah: grocery stores and restaurants, neighbors, low water crossing,  
