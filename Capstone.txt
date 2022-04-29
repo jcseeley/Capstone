@@ -36,3 +36,4 @@ Stretch Goals:
   
 Research:
   - Firebase - the lessons in LHTP are outdated and nothing is working. Trying to find a webpack config that actually works.
+  *Found working packages!*
