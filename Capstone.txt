@@ -1,8 +1,34 @@
 - Been talking with client about MVP, page layout, and stretch goals since 8 AM.
-MVP: 
-  1) pictures and descriptions of each property.
+
+MVP:
+  1) 4 logins - one for each listing accessing only specific information
   2) import vrbo calendar
-  3) customer portal - post booking guest information
-    - post booking information - cancellation, refunds, overnight occupancy policy
-    - check in information / house rules - lockbox code, internet, cell service/landline info
-      - Utah: grocery stores and restaurants, neighbors, low water crossing,  
+  3) pictures and descriptions of each property - header?
+  4) customer portal - post booking guest information
+    - post booking information - cancellation, refunds, overnight occupancy policy, directions, pets
+    - check in information - lockbox code, internet, cell service/landline info, shoes policy
+    - grocery stores, restaurants and hikes
+    - checkout info
+    - emergency info
+    - contact info
+        
+        Utah Specific:
+        - neighbors
+        - directions / low water crossing
+        - house - house rules - kitchen counter, barbecue, electrical blower, mice, trash/recycle
+        - house - heating, cooling, and fireplace
+        - barn - house rules - stove, bbq 
+        - barn - heating, cooling, woodstove
+        - guided hikes and canyoneering
+        - hikes from the house - cream cellar road, phipps
+        - extra help / contact - doug on site and katie contact info
+
+        Sedona Specific:
+        - post booking - all above + other unit on property, internet issues, trash/recycle, landscaper, wildlife
+        - parking - studio vs house
+        - house - laundry room, heating, cooling, fireplace
+        - studio - natural wood, no kitchen / hotplate policy, heating, cooling, fireplace
+        - guided hikes
+
+Stretch Goals:
+  
