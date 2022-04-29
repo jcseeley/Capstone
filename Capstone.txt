@@ -1,4 +1,4 @@
-- Been talking with client about MVP, page layout, and stretch goals since 8 AM.
+8 AM to 11:30 AM - Discussed MVP, page layout, and stretch goals with client.
 
 MVP:
   1) pictures and descriptions of each property - header? cards?
@@ -34,6 +34,7 @@ Stretch Goals:
   - 3) ability to block off calendar dates and place deposit - venmo / ACH payments?
   - 4) add logins for property - display sensitive info - lockbox, address, directions, internet access
   
-Research:
-  - Firebase - the lessons in LHTP are outdated and nothing is working. Trying to find a webpack config that actually works.
-  *Found working packages!*
+11:30 AM to 2 PM - Research Firebase - the lessons in LHTP are outdated and nothing is working. Trying to find a webpack config that actually works.
+1:45 PM - *Found working packages!*
+
+2 PM to 2:45 PM - Add base files to project, drew first draft of component diagram and started researching how to incorporate ICAL into project.
