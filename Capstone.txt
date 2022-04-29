@@ -34,3 +34,5 @@ Stretch Goals:
   - 3) ability to block off calendar dates and place deposit - venmo / ACH payments?
   - 4) add logins for property - display sensitive info - lockbox, address, directions, internet access
   
+Research:
+  - Firebase - the lessons in LHTP are outdated and nothing is working. Trying to find a webpack config that actually works.
