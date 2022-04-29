@@ -1,0 +1,32 @@
+Name of Student: Jase Seeley
+Name of Project: Vacation Rental information Site
+
+Project's Purpose: Provide rental/property information to guests and potential guests.
+
+List the absolute minimum features the project requires to meet this purpose or goal:
+  - Clean, professional header and home page.
+  - Quick and easy to use UI. 
+  - Information page for each of the 4 properties.
+
+What tools, frameworks, libraries, APIs, modules and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific:
+- React
+- JavaScript
+- HTML
+- CSS
+- Tailwind CSS
+
+If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific:
+- Incorporate linked ICAL to provide available booking dates.
+- Add Firebase with authentication to display sensitive information to guests who have booked.
+- Corresponding React Native App for guests to utilize during their stay.
+- Ability to block off dates on calendar by placing a deposit.
+
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+- Firebase / Firestore
+- React Native
+- ICAL package?
+- Venmo?
+- Geolocation?
+
+Is there anything else you'd like your instructor to know?
+- I'm keeping my MVP very simple to allow ample time for professional styling and information accuracy.
