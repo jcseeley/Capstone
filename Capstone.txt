@@ -38,3 +38,5 @@ Stretch Goals:
 1:45 PM - *Found working packages!*
 
 2 PM to 2:45 PM - Add base files to project, drew first draft of component diagram and started researching how to incorporate ICAL into project.
+
+2:45 PM to 4:10 - Researched ICAL integration.
