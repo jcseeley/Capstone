@@ -1,3 +1,49 @@
+# Research & Planning Log
+8 AM to 11:30 AM - Discussed MVP, page layout, and stretch goals with client.
+
+MVP:
+  1) pictures and descriptions of each property - header? cards?
+  2) import vrbo calendar for each listing - skip if too difficult
+  3) guest information: *no sensitive info! - lockbox, address, directions, internet access*
+    - post booking information - cancellation, refunds, overnight occupancy policy, pets, amenities
+    - check in information - internet issues, cell service/landline info, shoes policy
+    - grocery stores and restaurants
+    - checkout info
+    - contact and emergency info
+        
+        Utah Specific:
+        - neighbors
+        - directions / low water crossing
+        - house - house rules - kitchen counter, barbecue, electrical blower, mice, trash/recycle
+        - house - heating, cooling, and fireplace
+        - barn - house rules - stove, bbq 
+        - barn - heating, cooling, woodstove
+        - guided hikes and canyoneering
+        - hikes from the house - cream cellar road, phipps
+        - extra help / contact - doug on site and katie contact info
+
+        Sedona Specific:
+        - post booking - all above + other unit on property, internet issues, trash/recycle, landscaper, wildlife
+        - parking - studio vs house
+        - house - laundry room, heating, cooling, fireplace
+        - studio - natural wood, no kitchen / hotplate policy, heating, cooling, fireplace
+        - guided hikes
+
+Stretch Goals:
+  - 1) react native app - geo location for restaurants, hikes, stores, etc.
+  - 2) contact for potential booking / benefits of booking directly 
+  - 3) ability to block off calendar dates and place deposit - venmo / ACH payments?
+  - 4) add logins for property - display sensitive info - lockbox, address, directions, internet access
+  
+11:30 AM to 2 PM - Research Firebase - the lessons in LHTP are outdated and nothing is working. Trying to find a webpack config that actually works.
+1:45 PM - *Found working packages!*
+
+2 PM to 2:45 PM - Add base files to project, drew first draft of component diagram and started researching how to incorporate ICAL into project.
+
+2:45 PM to 4:10 PM - Researched ICAL integration.
+
+4:10 to 4:45 - Capstone Proposal
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
