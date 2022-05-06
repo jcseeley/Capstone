@@ -7,10 +7,10 @@ function PropertyList(props) {
     <React.Fragment>
       <div className="grid grid-cols-2">
         <div className="flex justify-center">  
-          <button className="bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 rounded-full mt-2 ml-2 mr-2" onClick={() => props.onPropertySelection("Utah")}>View Utah Rentals</button>
+          <button className="text-orange-900 bg-orange-300 hover:bg-orange-200 text-white font-bold py-2 px-4 rounded-full mt-2 ml-2 mr-2" onClick={() => props.onPropertySelection("Utah")}>View Utah Rentals</button>
         </div>
         <div className="flex justify-center">  
-          <button className="bg-red-600 hover:bg-red-400 text-white font-bold py-2 px-4 rounded-full mt-2 ml-2 mr-2" onClick={() => props.onPropertySelection("Sedona")}>View Sedona Rentals</button>
+          <button className="text-orange-900 bg-red-200 hover:bg-red-200 text-white font-bold py-2 px-4 rounded-full mt-2 ml-2 mr-2" onClick={() => props.onPropertySelection("Sedona")}>View Sedona Rentals</button>
         </div>
       </div>
     </React.Fragment>
