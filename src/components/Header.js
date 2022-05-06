@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from "../img/HowlandLogo.svg";
+import Logo from "../img/HowlandBigger.svg";
 
 function Header(){
   return (
     <React.Fragment>
-      <div className="flex items-center justify-center bg-orange-900">
-        <img className="h-84" src={Logo} alt="Howland Management Logo" />
+      <div className="flex items-center justify-left">
+        <img className="h-56" src={Logo} alt="Howland Management Logo" />
       </div>
       <hr />
     </React.Fragment>
