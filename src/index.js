@@ -7,8 +7,10 @@ import Header from './components/Header';
 
 ReactDOM.render(
   <React.Fragment>
-    <Header />
-    <App />
+    <div>
+      <Header />
+      <App />
+    </div>
   </React.Fragment>,
   document.getElementById('root')
 );

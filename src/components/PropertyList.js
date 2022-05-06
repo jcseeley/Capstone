@@ -27,7 +27,7 @@ function PropertyList(props) {
               <img src="https://a0.muscache.com/im/pictures/miso/Hosting-13466741/original/d27a015c-0ca7-4059-aef0-8021e5f392df.jpeg?im_w=720" alt="test"/>
             </div>
           </Carousel>
-          <p className="mb-2 ml-2 mr-2">This river front home tucked in between large cottonwood shade trees with views on all sides of the Escalante Canyon, meadows, cliffs, and river. Hike from the front door to first class scenic wonders. There are natural wonders right out the front door and within an hour's drive. Look for deer and wild turkey in the meadow in the mornings and evenings and watch the cloud shadows change over the canyon walls. Head up or down the canyon into rugged wilderness, and return home to comfort.</p>
+          <p className="text-orange-900 mb-2 ml-2 mr-2">This river front home tucked in between large cottonwood shade trees with views on all sides of the Escalante Canyon, meadows, cliffs, and river. Hike from the front door to first class scenic wonders. There are natural wonders right out the front door and within an hour's drive. Look for deer and wild turkey in the meadow in the mornings and evenings and watch the cloud shadows change over the canyon walls. Head up or down the canyon into rugged wilderness, and return home to comfort.</p>
           <div className="flex justify-center">
             <button className="text-orange-900 border-2 border-solid border-orange-900 bg-transparent hover:bg-orange-300 font-bold py-2 px-4 rounded ml-2 mr-2 mb-2" onClick={() => props.onPropertySelection("Utah")}>View Utah Rentals</button>
           </div>
