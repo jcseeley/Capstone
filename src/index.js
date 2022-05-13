@@ -8,7 +8,6 @@ import Header from './components/Header';
 ReactDOM.render(
   <React.Fragment>
     <div>
-      <Header />
       <App />
     </div>
   </React.Fragment>,

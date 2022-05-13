@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import PropertyList from "./PropertyList";
+import Header from "./Header";
 
 class PropertyControl extends React.Component {
   
@@ -34,6 +35,7 @@ class PropertyControl extends React.Component {
     }
     return (
       <React.Fragment>
+        <Header onPropertySelection={this.handleChangingSelectedProperty}/>
         {visibleState}
       </React.Fragment>
     )
