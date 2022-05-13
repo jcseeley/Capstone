@@ -12,3 +12,9 @@ body {
   top: 0;
   width: 100%;
 } */
+
+hr {
+  height: 1px;
+  background-color: rgb(124 45 18);
+  border: none;
+}
