@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import PropertyList from "./PropertyList";
 import Header from "./Header";
+import SedonaControl from "./SedonaControl";
 
 class PropertyControl extends React.Component {
   
@@ -29,7 +30,7 @@ class PropertyControl extends React.Component {
     if (this.state.selectedProperty === "Utah") {
       // visibleState = <UtahControl />
     } else if (this.state.selectedProperty === "Sedona") {
-      // visibleState = <SedonaControl />
+      visibleState = <SedonaControl />
     } else {
       visibleState = <PropertyList onPropertySelection={this.handleChangingSelectedProperty} />
     }
