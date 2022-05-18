@@ -7,8 +7,8 @@ function PropertyList(props) {
 
   return (
     <React.Fragment>
-      <div className="grid grid-cols-2 mt-2">
-        <div className='justify-self-center text-center w-11/12 ml-2 mt-4 mr-2 mb-4 px-2'>
+      <div className="grid grid-cols-2 mt-24">
+        <div className='justify-self-center text-center w-3/4 ml-2 mt-4 mr-2 mb-4 px-2'>
           <Carousel className="border-2 border-solid border-orange-900" animationHandler="fade" autoPlay={true} infiniteLoop={true} swipeable={false} showThumbs={false}>
             {/* UT House */}
             <div>
@@ -73,7 +73,7 @@ function PropertyList(props) {
           </div>
         </div>
 
-        <div className='justify-self-center text-center w-11/12 ml-2 mt-4 mr-2 mb-4 px-2'>
+        <div className='justify-self-center text-center w-3/4 ml-2 mt-4 mr-2 mb-4 px-2'>
         <Carousel className="border-2 border-solid border-orange-900" animationHandler="fade" autoPlay={true} infiniteLoop={true} swipeable={false} showThumbs={false}>
             <div>
               <img src="https://a0.muscache.com/im/pictures/fbb24b31-ea14-4677-9832-47623f2e6be8.jpg?im_w=720" alt="test"/>

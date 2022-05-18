@@ -7,11 +7,21 @@ body {
   background-size: cover;
 }
 
-/* #header {
+#header {
   position: fixed;
   top: 0;
   width: 100%;
-} */
+  color: rgb(124 45 18);
+}
+.menu {
+  position: fixed;
+  left: 10px;
+}
+
+.content {
+  overflow-y: auto;
+  max-height: 620px;
+}
 
 hr {
   height: 1px;

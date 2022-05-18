@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import PropertyList from "./PropertyList";
 import Header from "./Header";
 import SedonaControl from "./SedonaControl";
+import SedonaHouse from "./SedonaHouse";
 
 class PropertyControl extends React.Component {
   
@@ -28,15 +29,17 @@ class PropertyControl extends React.Component {
   render(){
     let visibleState = null;
     if (this.state.selectedProperty === "Utah") {
-      // visibleState = <UtahControl />
+      // visibleState = <UtahControl onPropertySelection={this.handleChangingSelectedProperty} />
     } else if (this.state.selectedProperty === "Sedona") {
-      visibleState = <SedonaControl />
+      visibleState = <SedonaControl onPropertySelection={this.handleChangingSelectedProperty} />
+    } else if (this.state.selectedProperty === "SedonaHouse") {
+      visibleState = <SedonaHouse onPropertySelection={this.handleChangingSelectedProperty} />
     } else {
       visibleState = <PropertyList onPropertySelection={this.handleChangingSelectedProperty} />
     }
     return (
       <React.Fragment>
-        <Header onPropertySelection={this.handleChangingSelectedProperty}/>
+        <Header onHandleClick={this.handleClick} onPropertySelection={this.handleChangingSelectedProperty}/>
         {visibleState}
       </React.Fragment>
     )

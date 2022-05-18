@@ -5,7 +5,7 @@ MVP:
   1) pictures and descriptions of each property - header? cards?
   2) import vrbo calendar for each listing - skip if too difficult
   3) guest information: *no sensitive info! - lockbox, address, directions, internet access*
-    - post booking information - cancellation, refunds, overnight occupancy policy, pets, amenities
+    - post booking information - cancellation, refunds, overnight occupancy policy, pets, amenities, internet/phone
     - check in information - internet issues, cell service/landline info, shoes policy
     - grocery stores and restaurants
     - checkout info
