@@ -15,16 +15,21 @@ body {
 }
 .menu {
   position: fixed;
-  left: 10px;
+  overflow-y: auto;
+  max-height: 600px;
 }
 
 .content {
   overflow-y: auto;
-  max-height: 620px;
+  max-height: 600px;
 }
 
-hr {
+li:hover {
+  cursor: pointer;
+}
+
+/* hr {
   height: 1px;
   background-color: rgb(124 45 18);
   border: none;
-}
+} */
