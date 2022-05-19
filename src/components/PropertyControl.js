@@ -34,8 +34,10 @@ class PropertyControl extends React.Component {
       visibleState = <SedonaControl onPropertySelection={this.handleChangingSelectedProperty} />
     } else if (this.state.selectedProperty === "SedonaHouse") {
       visibleState = <SedonaHouse onPropertySelection={this.handleChangingSelectedProperty} />
-    } else {
+    } else if (this.state.selectedProperty === "Overview") {
       visibleState = <PropertyList onPropertySelection={this.handleChangingSelectedProperty} />
+    } else {
+      visibleState = null;
     }
     return (
       <React.Fragment>
