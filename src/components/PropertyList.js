@@ -9,7 +9,7 @@ function PropertyList(props) {
     <React.Fragment>
       <div className="grid grid-cols-2 mt-24">
         <div className='justify-self-center text-center w-3/4 ml-2 mt-4 mr-2 mb-4 px-2'>
-          <Carousel className="border-2 border-solid border-orange-900" animationHandler="fade" autoPlay={true} infiniteLoop={true} swipeable={false} showThumbs={false}>
+          <Carousel className="border-2 border-solid border-orange-900" animationHandler="fade" autoPlay={true} infiniteLoop={true} swipeable={false} showThumbs={false} interval={4000}>
             {/* UT House */}
             {/* <div>
               <img src="https://a0.muscache.com/im/pictures/miso/Hosting-13466741/original/75814c31-3f40-4cf9-b282-f31387c2a855.jpeg?im_w=1200" alt="test"/>
@@ -91,7 +91,7 @@ function PropertyList(props) {
         </div>
 
         <div className='justify-self-center text-center w-3/4 ml-2 mt-4 mr-2 mb-4 px-2'>
-        <Carousel className="border-2 border-solid border-orange-900" animationHandler="fade" autoPlay={true} infiniteLoop={true} swipeable={false} showThumbs={false} interval={3500}>
+        <Carousel className="border-2 border-solid border-orange-900" animationHandler="fade" autoPlay={true} infiniteLoop={true} swipeable={false} showThumbs={false} interval={5000}>
             <div>
               <img src="https://a0.muscache.com/im/pictures/fbb24b31-ea14-4677-9832-47623f2e6be8.jpg?im_w=720" alt="test"/>
             </div>
