@@ -24,7 +24,7 @@ function SedonaHouse() {
             <li onClick={() => document.getElementById('trash').scrollIntoView({behavior: 'smooth'})}>Trash</li>
             <li onClick={() => document.getElementById('recycle').scrollIntoView({behavior: 'smooth'})}>Recycling</li>
             <li onClick={() => document.getElementById('landscaper').scrollIntoView({behavior: 'smooth'})}>Landscaper</li>
-            <li onClick={() => document.getElementById('laundry').scrollIntoView({ behavior: 'smooth' })}>Fireplace</li>
+            <li onClick={() => document.getElementById('fireplace').scrollIntoView({ behavior: 'smooth' })}>Fireplace</li>
             <li>Wildlife</li>
             <li onClick={() => document.getElementById('parking').scrollIntoView({behavior: 'smooth'})}>Parking</li>
             <li>Grocery Stores & Restaurants</li>

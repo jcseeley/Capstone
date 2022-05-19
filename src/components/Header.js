@@ -11,7 +11,7 @@ function Header(props){
         </div>
         <div className="flex justify-end mr-4">
           <button className="block h-8 text-orange-900 border-2 border-solid border-orange-900 bg-transparent hover:bg-gradient-to-t from-orange-200 font-bold px-2 rounded-md mt-10 ml-2 mr-2" onClick={() => props.onHandleClick()}>Home</button>
-          <button className="block h-8 text-orange-900 border-2 border-solid border-orange-900 bg-transparent hover:bg-gradient-to-t from-orange-200 font-bold px-2 rounded-md mt-10 ml-2 mr-2" onClick={() => props.onPropertySelection("Overview")}>Overview</button>
+          <button className="block h-8 text-orange-900 border-2 border-solid border-orange-900 bg-transparent hover:bg-gradient-to-t from-orange-200 font-bold px-2 rounded-md mt-10 ml-2 mr-2" onClick={() => props.onPropertySelection("Overview")}>Properties</button>
           <button className="block h-8 text-orange-900 border-2 border-solid border-orange-900 bg-transparent hover:bg-gradient-to-t from-orange-200 font-bold px-2 rounded-md mt-10 ml-2 mr-2" onClick={() => props.onPropertySelection("Utah")}>Utah</button>
           <button className="block h-8 text-orange-900 border-2 border-solid border-orange-900 bg-transparent hover:bg-gradient-to-t from-orange-200 font-bold px-1 rounded-md mt-10 ml-2 mr-2" onClick={() => props.onPropertySelection("Sedona")}>Sedona</button>
           <button className="block h-8 text-orange-900 border-2 border-solid border-orange-900 bg-transparent hover:bg-gradient-to-t from-orange-200 font-bold px-1 rounded-md mt-10 ml-2 mr-2" onClick={() => props.onPropertySelection("Contact")}>Contact</button>
