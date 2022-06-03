@@ -1,40 +1,43 @@
 import React from "react";
 
 function SedonaHouse() {
+  const scroll = (item) => {
+    document.getElementById(item).scrollIntoView({ behavior: 'smooth' });
+  }
   return (
     <React.Fragment>
       <div className="grid mt-24 ml-4 mr-4 mb-2">
         <div className="menu w-fit h-fit rounded-l-xl bg-gradient-to-t from-red-200/80 to-orange-200/80 text-zinc-800 border-2 border-solid border-orange-900 text-center font-medium items-center justify-self-auto mt-4 mr-4 px-2 py-2">
           <h1 className="font-bold underline">General Information</h1>
           <ul>
-            <li onClick={() => document.getElementById('cancel').scrollIntoView({behavior: 'smooth'})}>Cancellation Policy</li>
-            <li onClick={() => document.getElementById('refund').scrollIntoView({behavior: 'smooth'})}>Refund Policy</li>
-            <li onClick={() => document.getElementById('occupancy').scrollIntoView({behavior: 'smooth'})}>Overnight Occupany</li>
-            <li onClick={() => document.getElementById('otherGuests').scrollIntoView({behavior: 'smooth'})}>Other Guests</li>
-            <li onClick={() => document.getElementById('visitors').scrollIntoView({behavior: 'smooth'})}>Visitors</li>
+            <li onClick={() => scroll('cancel')}>Cancellation Policy</li>
+            <li onClick={() => scroll('refund')}>Refund Policy</li>
+            <li onClick={() => scroll('occupancy')}>Overnight Occupany</li>
+            <li onClick={() => scroll('otherGuests')}>Other Guests</li>
+            <li onClick={() => scroll('visitors')}>Visitors</li>
             <li>Pets & Service Animals</li>
-            <li onClick={() => document.getElementById('internet').scrollIntoView({behavior: 'smooth'})}>Internet</li>
-            <li onClick={() => document.getElementById('telephone').scrollIntoView({behavior: 'smooth'})}>Telephone</li>
-            <li onClick={() => document.getElementById('cellPhone').scrollIntoView({behavior: 'smooth'})}>Cell Phones</li>
+            <li onClick={() => scroll('internet')}>Internet</li>
+            <li onClick={() => scroll('telephone')}>Telephone</li>
+            <li onClick={() => scroll('cellPhone')}>Cell Phones</li>
             <li>Amenities</li>
             <li>Check In</li>
             <li>Check Out</li>
             <li className="font-bold underline">Guest Information</li>
-            <li onClick={() => document.getElementById('shoes').scrollIntoView({behavior: 'smooth'})}>Shoes</li>
-            <li onClick={() => document.getElementById('trash').scrollIntoView({behavior: 'smooth'})}>Trash</li>
-            <li onClick={() => document.getElementById('recycle').scrollIntoView({behavior: 'smooth'})}>Recycling</li>
-            <li onClick={() => document.getElementById('landscaper').scrollIntoView({behavior: 'smooth'})}>Landscaper</li>
-            <li onClick={() => document.getElementById('fireplace').scrollIntoView({ behavior: 'smooth' })}>Fireplace</li>
+            <li onClick={() => scroll('shoes')}>Shoes</li>
+            <li onClick={() => scroll('trash')}>Trash</li>
+            <li onClick={() => scroll('recycle')}>Recycling</li>
+            <li onClick={() => scroll('landscaper')}>Landscaper</li>
+            <li onClick={() => scroll('fireplace')}>Fireplace</li>
             <li>Wildlife</li>
-            <li onClick={() => document.getElementById('parking').scrollIntoView({behavior: 'smooth'})}>Parking</li>
+            <li onClick={() => scroll('parking')}>Parking</li>
             <li>Grocery Stores & Restaurants</li>
-            <li onClick={() => document.getElementById('heat').scrollIntoView({behavior: 'smooth'})}>Heating</li>
-            <li onClick={() => document.getElementById('ac').scrollIntoView({behavior: 'smooth'})}>Cooling</li>
-            <li onClick={() => document.getElementById('laundry').scrollIntoView({behavior: 'smooth'})}>Laundry</li>
-            <li onClick={() => document.getElementById('contact').scrollIntoView({behavior: 'smooth'})}>Contact</li>
-            <li onClick={() => document.getElementById('guidedHikes').scrollIntoView({behavior: 'smooth'})}>Guided Hikes</li>
+            <li onClick={() => scroll('heat')}>Heating</li>
+            <li onClick={() => scroll('ac')}>Cooling</li>
+            <li onClick={() => scroll('laundry')}>Laundry</li>
+            <li onClick={() => scroll('contact')}>Contact</li>
+            <li onClick={() => scroll('guidedHikes')}>Guided Hikes</li>
             <li>Hiking Recommendations</li>
-            <li onClick={() => document.getElementById('emergency').scrollIntoView({behavior: 'smooth'})}>Emergency Information</li>
+            <li onClick={() => scroll('emergency')}>Emergency Information</li>
           </ul>
         </div>
         <div className="content rounded-l-xl justify-self-center bg-gradient-to-t from-red-200/80 to-orange-200/80 text-zinc-800 border-2 border-solid border-orange-900 text-center font-medium mt-4 ml-72 px-4">
