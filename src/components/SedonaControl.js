@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from "react-router-dom";
 
-function SedonaControl(props) {
+function Sedona() {
 
   return (
     <React.Fragment>
@@ -30,7 +31,7 @@ function SedonaControl(props) {
           <h1 className="text-xl font-bold text-orange-900 mb-2 pt-2">House</h1>
           <p className="text-sm font-bold mb-4 ml-2 mr-2 px-4">Tucked in between large cottonwood shade trees with views on all sides of Escalante Canyon, a sprawling meadow, redrock cliffs, and a serene river. Hike right from the house across 40 acres of first class scenic wonders. Sit on the deck and watch for deer and wild turkey wandering the meadow as the cloud shadows change over the canyon walls in the evening. Head up or down the canyon into rugged wilderness, and return home to comfort.</p>
           <div className="flex justify-center">
-            <button className="block text-sm text-orange-900 border-2 border-solid border-orange-900 bg-red-300 hover:bg-gradient-to-t from-red-300 to-red-200 font-bold py-2 px-4 rounded ml-2 mr-2 mb-4" onClick={() => props.onPropertySelection("SedonaHouse")}>House Info</button>
+            <Link to="/SedonaHouse" className="block text-sm text-orange-900 border-2 border-solid border-orange-900 bg-red-300 hover:bg-gradient-to-t from-red-300 to-red-200 font-bold py-2 px-4 rounded ml-2 mr-2 mb-4">House Info</Link>
           </div>
           </div>
         </div>
@@ -51,7 +52,7 @@ function SedonaControl(props) {
           <h1 className="text-xl font-bold text-orange-900 mb-2 pt-2">Studio</h1>
           <p className="text-sm font-bold mb-4 ml-2 mr-2 px-4">This arts & crafts inspired home has been our personal residence for over 30 years. The Japanese & Southwest inspired exterior is set in an oasis of mature landscaping and lush greenery. In this tranquility, we see an abundance of local wildlife including javalina, quail, and even the occasional bobcat. World class hiking begins minutes from the front door. Gourmet restaurants, spas, galleries, and bike rentals can be found in the nearby Village of Oak Creek.</p>
           <div className="flex justify-center">  
-            <button className="block text-sm text-orange-900 border-2 border-solid border-orange-900 bg-red-300 hover:bg-gradient-to-t from-red-300 to-red-200 font-bold py-2 px-4 rounded ml-2 mr-2 mb-4" onClick={() => props.onPropertySelection("SedonaStudio")}>Studio Info</button>
+          <Link to="/SedonaStudio" className="block text-sm text-orange-900 border-2 border-solid border-orange-900 bg-red-300 hover:bg-gradient-to-t from-red-300 to-red-200 font-bold py-2 px-4 rounded ml-2 mr-2 mb-4">Studio Info</Link>
           </div>
           </div>
         </div>
@@ -60,8 +61,4 @@ function SedonaControl(props) {
   );
 }
 
-SedonaControl.propTypes = {
-  onPropertySelection: PropTypes.func
-};
-
-export default SedonaControl;
+export default Sedona;

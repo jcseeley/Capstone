@@ -7,7 +7,7 @@ body {
   background-size: cover;
 }
 
-#header {
+/* #header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -26,7 +26,7 @@ body {
 
 li:hover {
   cursor: pointer;
-}
+} */
 
 /* hr {
   height: 1px;
